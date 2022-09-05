@@ -4,10 +4,11 @@
       box-sizing: border-box;
 }
 
-/* #region utilities */
 body {
       font-family: 'Padauk', sans-serif;
 }
+
+/* #region utilities */
 
 .container {
       width: 80%;
@@ -19,10 +20,6 @@ body {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
-}
-
-[class^="col-"] {  
-      margin: auto;
 }
 
 .col-2 {
@@ -37,25 +34,10 @@ body {
       text-align: center;
 }
 
-/* .wave {
-      background-image: url(../img/wave.svg);
-      background-repeat: no-repeat;
-      background-size: contain;
-      opacity: 0.1;
-} */
-
-
-.contact {
-      background-color: darkblue;
-}
-
-#site_footer span {
-      background-color: azure;
-}
-
 button:hover {
       cursor: pointer;
 }
+
 /* #endregion utilities */
 
 /* #region header */
@@ -157,15 +139,38 @@ h1 {
       background-color: #E4E4E4;
 }
 
+/* #region waves */
+
+svg {
+      margin-bottom: -10px;
+}
+.waves_gray > path{
+      fill: #E4E4E4;
+}
+
+.waves_white {
+      background-color: #E4E4E4;
+}
+.waves_white > path{
+      fill: white;
+}
+
+.bg_waves {
+      background-color: #E4E4E4;
+}
+
+/* #endregion waves */
 
 .news {
       text-align: center;
       margin: auto;
 }
- .news > div {
+
+.news > div {
       width: 80%;
       margin: auto;
- }
+}
+
 .news h2 {
       font-size: 3rem;
 }
@@ -205,4 +210,77 @@ h3 {
       color: white;
       background-color: #23272A;
 }
+
+.utilities {
+      background-color: #23272A;
+}
+.utilities h3 {
+      background: none;
+      color: #7289DA;
+}
+
+.logo_ita {
+      width: 1.5rem;
+}
+
+#language {
+      background: none;
+      border: none;
+      cursor: pointer; 
+      color: white;     
+}
+
+.social i {
+      font-size: 1.5rem;
+      padding: 0.6rem;
+      color: white;
+}
+.contact {
+      padding: 3rem 0;
+}
+.contact h4 {
+      color: #7289DA;
+      font-size: 1.5rem;
+}
+
+.contact div {
+      color: white;
+      font-size: 1rem;
+}
 /*  #endregion main */
+
+/* #region footer */
+
+#site_footer {
+      background-color: #23272A;
+      
+}
+#site_footer > .container {
+      border-top: 1px solid #7289DA;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 2rem 0;
+}
+
+#site_footer .logo {
+      width: 20%;
+}
+#site_footer button {
+      border: none;
+      border-radius: 2rem;
+      font-size: 1rem;
+      padding: 1rem 1.5rem;
+      margin: 0.8rem 1rem;
+      color: white;
+      background-color: #7289DA;
+}
+
+#site_footer button:hover {
+      color: white;
+      background-color: #23272A;
+      cursor: pointer;
+      border: 1px solid #7289DA;
+}
+
+/* #endregion footer */
