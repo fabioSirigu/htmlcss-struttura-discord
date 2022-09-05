@@ -1,0 +1,40 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+
+/* #region utilities */
+
+.debug header {
+      border: 1px solid;
+      background-color: red;
+}
+
+.container {
+      width: 80%;
+      max-width: 1200px;
+      margin:0 auto;
+      margin-top: 5px;
+      margin-bottom: 5px;  
+}
+
+.row {
+      display: flex;
+      flex-wrap: wrap;
+}
+
+[class^="col-"] {
+      background-color: aqua;
+      border: 1px solid;
+}
+
+.col-2 {
+      width: calc(( 100% / 12) * 2);
+}
+
+.col-8 {
+      width: calc(( 100% / 12) * 8);
+}
+
+/* #endregion utilities */
