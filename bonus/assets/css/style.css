@@ -37,9 +37,13 @@ body {
       text-align: center;
 }
 
-.bg_gray {
-      background-color: gray;
-}
+/* .wave {
+      background-image: url(../img/wave.svg);
+      background-repeat: no-repeat;
+      background-size: contain;
+      opacity: 0.1;
+} */
+
 
 .news {
       height: 200px;
@@ -141,6 +145,9 @@ h1 {
 
 /* #endregion jumbo */
 
+.bg_section .row {
+      padding: 5rem 0;
+}
 .col-4 > h2 {
       font-size: 3rem;
       text-align: left;
@@ -149,5 +156,9 @@ h1 {
 .col-4 > p {
       font-size: 1rem;
       text-align: left;
+}
+
+.second {
+      background-color: #E4E4E4;
 }
 /*  #endregion main */
