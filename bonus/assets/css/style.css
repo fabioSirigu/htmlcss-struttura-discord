@@ -5,6 +5,9 @@
 }
 
 /* #region utilities */
+body {
+      font-family: 'Padauk', sans-serif;
+}
 
 .container {
       width: 80%;
@@ -34,18 +37,6 @@
       text-align: center;
 }
 
-
-.banner_bg {
-      background-color: darkblue;
-      height: 300px;
-}
-
-.banner_bg>.container {
-      background-color: pink;
-      width: 50%;
-      height: 100px;
-}
-
 .bg_gray {
       background-color: gray;
 }
@@ -59,8 +50,12 @@
       background-color: darkblue;
 }
 
-span {
+#site_footer span {
       background-color: azure;
+}
+
+button:hover {
+      cursor: pointer;
 }
 /* #endregion utilities */
 
@@ -91,3 +86,47 @@ a {
       border: none;
       text-align: right;
 }
+
+/* #endregion header */
+
+/*  #region main */
+
+.banner_bg {
+      height: 600px;
+      background-image: url(../img/jumbo.png);
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      align-items: center;
+}
+
+.banner_bg > .container {
+      width: 30%;
+      text-align: center;
+      color: white;
+}
+
+h1 {
+      font-size: 48px;
+      font-family: 'Padauk', sans-serif;
+      font-weight: 700;
+      padding-bottom: 2rem;
+}
+
+.container > p {
+      font-size: 1.2rem;
+}
+
+.download_button button {
+      border: none;
+      border-radius: 2rem;
+      font-size: 1.2rem;
+      padding: 1rem 1.5rem;
+      margin: 0.8rem 1rem;
+}
+
+.download_button button:hover {
+      color: white;
+      background-color: #23272A;
+}
+/*  #endregion main */
