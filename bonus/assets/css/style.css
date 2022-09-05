@@ -45,11 +45,6 @@ body {
 } */
 
 
-.news {
-      height: 200px;
-      background-color: lightcoral;
-}
-
 .contact {
       background-color: darkblue;
 }
@@ -160,5 +155,54 @@ h1 {
 
 .second {
       background-color: #E4E4E4;
+}
+
+
+.news {
+      text-align: center;
+      margin: auto;
+}
+ .news > div {
+      width: 80%;
+      margin: auto;
+ }
+.news h2 {
+      font-size: 3rem;
+}
+
+.news > img {
+      padding: 2rem 0;
+      width: 100%;
+}
+
+.ready_to {
+      width: 80%;
+      margin: auto;
+      text-align: center;
+     
+}
+h3 {
+      font-size: xxx-large;
+      font-weight: 700;
+      background-image: url(../img/stars.svg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding: 2rem 0;
+}
+
+.ready_to button {
+      border: none;
+      border-radius: 2rem;
+      font-size: 1.2rem;
+      padding: 0.8rem 1.8rem;
+      margin: 2rem;
+      color: white;
+      background-color: #7289DA;
+      ;
+}
+
+.ready_to button:hover {
+      color: white;
+      background-color: #23272A;
 }
 /*  #endregion main */
