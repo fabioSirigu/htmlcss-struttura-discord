@@ -6,7 +6,7 @@
 
 /* #region utilities */
 
-.debug header {
+.debug header, .debug footer {
       background-color: red;
 }
 
@@ -20,8 +20,7 @@
 .row {
       display: flex;
       flex-wrap: wrap;
-      justify-content: center;
-      align-items: center;
+      justify-content: space-between;
 }
 
 [class^="col-"] {
@@ -64,5 +63,9 @@
 
 .contact {
       background-color: darkblue;
+}
+
+span {
+      background-color: azure;
 }
 /* #endregion utilities */
