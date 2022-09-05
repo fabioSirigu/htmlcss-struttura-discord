@@ -1,0 +1,93 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+
+/* #region utilities */
+
+.container {
+      width: 80%;
+      max-width: 1200px;
+      margin:0 auto;
+}
+
+.row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+}
+
+[class^="col-"] {   
+}
+
+.col-2 {
+      width: calc(( 100% / 12) * 2);
+}
+
+.col-4 {
+      width: calc(( 100% / 12) * 4);
+      background-color: red;
+}
+.col-8 {
+      width: calc(( 100% / 12) * 8);
+      text-align: center;
+}
+
+
+.banner_bg {
+      background-color: darkblue;
+      height: 300px;
+}
+
+.banner_bg>.container {
+      background-color: pink;
+      width: 50%;
+      height: 100px;
+}
+
+.bg_gray {
+      background-color: gray;
+}
+
+.news {
+      height: 200px;
+      background-color: lightcoral;
+}
+
+.contact {
+      background-color: darkblue;
+}
+
+span {
+      background-color: azure;
+}
+/* #endregion utilities */
+
+/* #region header */
+header {
+      background-image: url(../img/jumbo.png);
+      color: white;
+      padding: 20px 0px;
+}
+
+.logo {
+      width: 100px;
+}
+
+a {
+      color: white;
+      text-decoration: none;
+      padding: 20px;
+}
+
+.links a:hover {
+      text-decoration: underline;
+}
+
+.col-2 > button {
+      padding: 0.3rem 0.8rem;
+      border-radius: 1rem;
+      border: none;
+      text-align: right;
+}
