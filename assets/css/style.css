@@ -15,8 +15,6 @@
       width: 80%;
       max-width: 1200px;
       margin:0 auto;
-      margin-top: 5px;
-      margin-bottom: 5px;  
 }
 
 .row {
@@ -35,6 +33,20 @@
 
 .col-8 {
       width: calc(( 100% / 12) * 8);
+}
+
+.h-200 {
+      height: 200px;
+}
+.banner_bg {
+      background-color: darkblue;
+      margin: auto;
+}
+
+.banner_bg>.container {
+      background-color: pink;
+      height: 100px;
+      
 }
 
 /* #endregion utilities */
